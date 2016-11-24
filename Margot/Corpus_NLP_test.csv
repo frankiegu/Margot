@@ -1,0 +1,165 @@
+Tokens,Tag
+brown,provide_info_color_brown
+yes,provide_info_yes
+no,provide_info_no
+okay,provide_info_yes
+black,provide_info_color_black
+any,provide_info_anything 
+any color would do,provide_info_anything 
+anything,provide_info_anything 
+any type is fine,provide_info_anything 
+any price range,provide_info_anything 
+blue,provide_info_color_blue
+preferably black,provide_info_color_black
+preferably brown ,provide_info_color_brown
+correct,provide_info_yes
+i want to shop few shoes boots in particular ,provide_info_category_boots 
+you are right,provide_info_yes
+yeah,provide_info_yes
+yup,provide_info_yes
+yep,provide_info_yes
+that's right,provide_info_yes
+sure,provide_info_yes
+preferably blue,provide_info_color_blue
+loafers,provide_info_category_loafers
+sandals,provide_info_category_sandals
+boots,provide_info_category_boots 
+i want cheap ones,provide_info_cost_cheap
+cheap,provide_info_cost_cheap
+moderate price please,provide_info_cost_moderate
+I prefer a moderate price range ,provide_info_cost_moderate
+moderate,provide_info_cost_moderate
+Show me expensive shoes,provide_info_cost_expensive
+expensive,provide_info_cost_expensive
+can you show me sandals,provide_info_category_sandals
+I want blue boots,provide_info_color_blue
+do you have loafers,provide_info_category_loafers
+do you have sandals,provide_info_category_sandals
+can you show boots ,provide_info_category_boots 
+all,provide_info_anything
+any color,provide_info_anything
+any type,provide_info_anything
+any price range is okay,provide_info_anything
+nope,provide_info_no
+nah,provide_info_no
+that's not what i am looking for,provide_info_no
+that's not what i asked for,provide_info_no
+that's not what i said,provide_info_no
+that's not what i want,provide_info_no
+i need to make some changes,provide_info_no
+the color is wrong,provide_info_no
+the shoe type is wrong,provide_info_no
+the cost preference is wrong,provide_info_no
+Plain black,provide_info_color_black
+i prefer black,provide_info_color_black
+i will go with black,provide_info_color_black
+black may be,provide_info_color_black
+i am looking for black shoes,provide_info_color_black
+black ones please,provide_info_color_black
+i want blue shoes,provide_info_color_blue
+navy blue,provide_info_color_blue
+i prefer blue,provide_info_color_blue
+i want to go with blue ,provide_info_color_blue
+i will go with blue,provide_info_color_blue
+blue ones please,provide_info_color_blue
+i am looking for blue shoes,provide_info_color_blue
+blue may be,provide_info_color_blue
+brown ones please,provide_info_color_brown
+dark brown,provide_info_color_brown
+i prefer brown,provide_info_color_brown
+i want to go with brown,provide_info_color_brown
+i will go with brown,provide_info_color_brown
+brown may be,provide_info_color_brown
+inexpensive,provide_info_cost_cheap
+i am looking for cheap ones,provide_info_cost_cheap
+i prefer cheap shoes,provide_info_cost_cheap
+cheap sounds good,provide_info_cost_cheap
+lets go for cheap,provide_info_cost_cheap
+show me cheap shoes,provide_info_cost_cheap
+i will go with expensive,provide_info_cost_expensive
+i want expensive ones,provide_info_cost_expensive
+i am looking for expensive ones,provide_info_cost_expensive
+i prefer expensive shoes,provide_info_cost_expensive
+expensive sounds good,provide_info_cost_expensive
+i am fine with expensive ones,provide_info_cost_expensive
+show me moderately priced shoes,provide_info_cost_moderate
+affordable,provide_info_cost_moderate
+i prefer moderately priced shoes,provide_info_cost_moderate
+moderate will be good,provide_info_cost_moderate
+lets go for moderate,provide_info_cost_moderate
+i am looking for boots,provide_info_category_boots 
+show me boots,provide_info_category_boots 
+I want boots,provide_info_category_boots 
+gum boots,provide_info_category_boots 
+black boots,provide_info_category_boots 
+i want some sexy boots,provide_info_category_boots 
+i want a pair of boots,provide_info_category_boots 
+loafers. i want loafers.,provide_info_category_loafers
+"Ooooo, i'd like some loafers",provide_info_category_loafers
+ i want some comfy loafers,provide_info_category_loafers
+i'm looking for some nice loafers,provide_info_category_loafers
+i want a pair of loafers,provide_info_category_loafers
+i would like some loafers please,provide_info_category_loafers
+ i think i want some loafers,provide_info_category_loafers
+i want to buy a pair of loafers,provide_info_category_loafers
+i want some peep toe sandals,provide_info_category_sandals
+i would like some sandals,provide_info_category_sandals
+i am looking to buy a pair of sandals today,provide_info_category_sandals
+i want some nice sandals,provide_info_category_sandals
+i want to buy a pair of sandals,provide_info_category_sandals
+i think i want some sandals today,provide_info_category_sandals
+i need some sandals ,provide_info_category_sandals
+ a pair of sandals please,provide_info_category_sandals
+i want shoes,provide_info_NA
+i am looking for a pair of shoes ,provide_info_NA
+find me stilettos,provide_info_NA
+do you have heels,provide_info_NA
+what colors do you have,provide_info_NA
+one with straps around your ankles,provide_info_NA
+sports,provide_info_NA
+can u show me some pumps ,provide_info_NA
+what are the types available,provide_info_NA
+leather shoes,provide_info_NA
+what shoes do u have,provide_info_NA
+what do u mean by type,provide_info_NA
+no thing specific as such,provide_info_anything
+pink,provide_info_NA
+red,provide_info_NA
+silver,provide_info_NA
+gold,provide_info_NA
+white,provide_info_NA
+khaki,provide_info_NA
+Umm brown,provide_info_color_brown
+i want black boots,provide_info_color_black
+i want black loafers,provide_info_color_black
+i want black sandals,provide_info_color_black
+black ones please,provide_info_color_black
+nothing in particular,provide_info_anything
+no preference,provide_info_anything
+i don't mind anything,provide_info_anything
+i want blue boots,provide_info_color_blue
+i want blue loafers,provide_info_color_blue
+i want blue sandals,provide_info_color_blue
+i want a pair of brown boots,provide_info_color_brown
+ i want a pair of brown loafers,provide_info_color_brown
+i want a pair of brown sandals,provide_info_color_brown
+brown boots,provide_info_color_brown
+brown loafers,provide_info_color_brown
+brown sandals,provide_info_color_brown
+yellow,provide_info_NA
+green,provide_info_NA
+purple,provide_info_NA
+this is not right,provide_info_no
+this is not what i wanted,provide_info_no
+no you got it wrong,provide_info_no
+i'll go with cheap,provide_info_cost_cheap
+i want a cheap pair,provide_info_cost_cheap
+cheap please,provide_info_cost_cheap
+i always go for expensive,provide_info_cost_expensive
+moderate please,provide_info_cost_moderate
+i'd like some boots please,provide_info_category_boots 
+i want to buy some boots,provide_info_category_boots 
+i'm looking for some nice boots,provide_info_category_boots 
+uh ha,provide_info_yes
+that's correct,provide_info_yes
+that's fine,provide_info_yes
