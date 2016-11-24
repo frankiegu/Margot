@@ -26,10 +26,12 @@ We have a custom ASR module which we built based on a language model trained on 
    e) Install PocketSphinx-python (place folder in the parent directory "Margot")
    f) Install CMU-Cambridge Statistical Language Modeling Toolkit (place folder in the parent directory "Margot")
    g) run $python text2corpus
-   h) run $mv build_lm.sh CMU-Cam_Toolkit_v2/bin
-   i) run $cd CMU-Cam_Toolkit_v2/bin
-   j) run $./build_lm.sh
-   k) run $cd ../../
+   h) run $mv limited_corpus.txt CMU-Cam_Toolkit_v2/bin
+   i) run $mv build_lm.sh CMU-Cam_Toolkit_v2/bin
+   j) run $cd CMU-Cam_Toolkit_v2/bin
+   k) run $./build_lm.sh
+   l) run $cd ../../
+   
    
    
    
