@@ -1,0 +1,35 @@
+Project : Margot - The virtual shoe shopping assistant
+Course :  Applied Natural Language Processing, CSCI 544, Fall 2016, University of Southern California
+Contributors : Abhishek Sharma Ramachandra, Anup Atluri, Bhargav Murali Rao, Megha Nadig Basappa, Zarana Kiran Desai
+Description : This project aims to build a dialogue system "Margot", which functions as a virtual shoe shopping assistant.
+
+Pre-Requisite Python3 Modules : 
+1) Pyaudio
+2) SpeechRecognition
+3) gTTS
+
+Running two versions of our system : 
+    a) The first one is triggered by running "python3 DialogueManager1.py" , this particular version uses an NLU based on pattern matching.
+    
+    b) The second version is triggered by running "python3 DialogueManager2.py". This version employs a Naive Bayesian classifier as the NLU technique.
+    
+For the working versions of our project, we are using the Google Cloud Speech Recognition API for the ASR task ("speech_recognition.py"). "nlu_one.py" and "nlu_two.py" correspond 
+to the NLU module code using pattern matching and Naive Bayes classifier respectively. "speech_generation.py" contains code for the NLG module. 
+
+We have a custom ASR module which we built based on a language model trained on a small corpus. The code corresponding to this is contained in 
+"customSR.py". We have used Pocketsphinx for this purpose. In order to use this ASR in place of the Google ASR , the following steps need to be completed :
+
+   a) Rename "speech_recognition.py" to "googleASR.py"
+   b) Rename "customASR.py" to "speechRecognition.py"
+   c) Install SphinxBase (place folder in the parent directory "Margot")
+   d) Install PocketSphinx (place folder in the parent directory "Margot")
+   e) Install PocketSphinx-python (place folder in the parent directory "Margot")
+   f) Install CMU-Cambridge Statistical Language Modeling Toolkit (place folder in the parent directory "Margot")
+   g) run $python text2corpus
+   h) run $mv build_lm.sh CMU-Cam_Toolkit_v2/bin
+   i) run $cd CMU-Cam_Toolkit_v2/bin
+   j) run $./build_lm.sh
+   k) run $cd ../../
+   
+   
+   
