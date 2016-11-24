@@ -153,13 +153,14 @@ class SpeechDetector:
                 # Removes temp audio file
                 os.remove(filename)
                 sentence = ''
+                
                 # Reset all
                 started = False
                 slid_win = deque(maxlen=int(self.SILENCE_LIMIT * rel))
                 prev_audio = deque(maxlen=int(0.5 * rel))
                 audio2send = []
-                print("Listening ...")
-                #break
+                #print("Listening ...")
+                break
 
             else:
                 prev_audio.append(cur_data)
@@ -169,6 +170,7 @@ class SpeechDetector:
         p.terminate()
         return sentence
 
-sd = SpeechDetector()
-sd.run()
+def recognizeSpeech():
+    sd = SpeechDetector()
+    return sd.run()
 
